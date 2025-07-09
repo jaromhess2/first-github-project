@@ -141,6 +141,7 @@ form {
     flex-direction: column;
     max-width: 600px;
     margin: 0px auto;
+    padding: 0 24px;
 }
 
 input, textarea {
@@ -177,6 +178,16 @@ footer {
 
 /*small PHONES TABLETS LARGE SMARTPHONES*/
 @media (max-width: 728px) {
+
+    .nav__fes-logo--wrapper {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+
+    .fes-logo {
+        max-width: 250px;
+    }
+
     .row {
         flex-direction: column;
     } 
@@ -189,6 +200,7 @@ footer {
         margin-bottom: 24px;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     h1 {
@@ -200,4 +212,44 @@ footer {
         text-align: center;
         font-size: 28px;
     }
+
+    .home__description--button {
+        max-width: 240px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .section__description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section__description--wrapper {
+        width: 100%;
+    }
+
+    .about__img--wrapper {
+        width: 100%;
+    }
+
+    #discord .section__description {
+        flex-direction: column-reverse;
+    }
+
+    footer {
+        padding: 48px 24px;
+    }
+
+    .footer__link {
+        padding: 0 8px;
+        font-size: 16px;
+    }
+
+    .footer__links {
+        margin: 24px 0;
+    }
+
 }
